@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "@id": "https://University/resource/Fujian.org",
+  "name": "Fujian",
+  "population": "41.930.000",
+  "containedInPlace": {
+    "@type": "Country",
+	"@id": "https://University/resource/China.org",
+    "name": "China"
+  },
+  "University": [
+    {
+      "@type": "University",
+      "@id":  "https://University/resource/Xiamen.org",
+      "name": "Xiamen University",
+      "Acronym": "Xiamen"
+      
+    },
+    {
+      "@type": "University",
+      "@id":  "https://University/resource/Fujian.org",
+      "name": "Fujian University",
+      "Acronym": "Fujian"
+      
+    }
+    
+  ]
+}
